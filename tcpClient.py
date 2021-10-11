@@ -5,7 +5,6 @@ host = socket.gethostname()
 port = 12345
 FORMAT = "utf-8"
 
-
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((host, port))
     filename = sys.argv[1]
