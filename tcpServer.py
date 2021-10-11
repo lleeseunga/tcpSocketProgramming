@@ -25,7 +25,3 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 c.send(filename.encode(FORMAT))
             print("Done Receiving")
         c.close()
-
-
-
-
